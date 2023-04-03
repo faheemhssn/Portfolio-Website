@@ -1,67 +1,65 @@
-<!DOCTYPE html> <!-- declare document as html here -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8"> <!-- character set -->
-    <title>Faheem Hassan - My Online Portfolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- favicon image on tab here -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"> <!-- normalize css here -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css"> <!-- link to styles.css here -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"><!--setting the viewport-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200&family=Titillium+Web:wght@300;400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.production.css">
+	<title>Faheem Hassan Home Page</title>
 </head>
 
-
 <body>
-<!-- Header including the logo and the main navigation -->
-<header class="page-header">
-  <!-- Add Logo here -->
-  <img src="img/ABV.svg" alt="logo" class="page-header_item" width="100" height="200">
-  <nav class="main-navigation page-header_item">
-     <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-           <a href="index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
-        </li >
-        <li role="presentation">
-           <a href="about.html" role="menuitem" class="navigation-list_item">About</a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-       </li>
-        <li role="presentation">
-           <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
-        </li>
-     </ul>
-  </nav>
-</header>
-<div class="profile">
-    <!-- Add your portrait here -->
-    <img src="https://64.media.tumblr.com/a0e9da669427cb574a28fb3acc0405f3/abf862caa6eb89f3-36/s1280x1920/47a9d33ba2b8ebd20279e7af4e1ec443fcfd4738.jpg"  width="100" height="100" class="profile_portrait">
+	<header class="page-navbar background__primary">
+		<img src="./img/logo.jpg" alt="Faheem's logo" class="page-header__item nav__logo">
+		<div class="container topBotomBordersOut">
+			<nav class="main-navigation">
+				<ul role="menubar" class="navigation-list topBotomBordersIn">
+					<li role="presentation">
+						<a href="./index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="./work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+					</li>
+					<li role="presentation">
+						<a href="./about.html" role="menuitem" class="navigation-list__item">About Me</a>
+					</li>
+					<li role="presentation">
+						<a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-    <h1>Hello World!</h1>
-    <p>
-    My name is Faheem. I am learning to become a <span> web </span> developer!
-    </p>
-    <a href="#">Here is some code</a>
-<div>
-    <a href="#">A Link For You</a> <!--link-->
-<button type="button">Click Here</button> <!--button-->
-<button class="button_secondary">Secondary Button</button>
-</div>
-</div>
-<a href="https://www.google.com" class="my-link" id="my-link">A link</a>
-<div>
-   <footer>
-       <p>
-       Find me on:
-       </p>
-       <img src="img/github_icon.svg" alt="Github">
-       <img src="img/twitter_icon.svg" alt="Twitter">
-       <img src="img/linkedin_icon.svg" alt="LinkedIn">
-   </footer>
-   <script src="js/tota11y.min.js"></script>
-</div>
+	<div class="profile">
+		<img src="./img/face.jpg" alt="Faheem's Portrait" width="150" class="profile__portrait">
+		<h1>Hello World!</h1>
+		<p>
+			My name is Faheem Hassan. I am a <span>web</span> developer from Virginia in the 
+			USA.
+		</p>
+		<p>Check out some of my code</p>
+		<a href="https://github.com/faheemhssn" class="button__primary" target="_blank">Here</a>
+	</div>
 
+	<footer class="page-footer">
+		<p>Find me on</p>
+		<div class="social-media">
+			<img src="./img/github_icon.svg" alt="Github" width="30">
+			<img src="./img/twitter_icon.svg" alt="Twitter" width="30">
+			<img src="./img/linkedin_icon.svg" alt="LinkedIn" width="30">
+		</div>
+	</footer>
+	<script src="js/tota11y.min.js"></script>
 </body>
 
 </html>
