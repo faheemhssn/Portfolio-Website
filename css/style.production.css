@@ -162,6 +162,10 @@ a:visited.button__primary {
 
 /* Nav bar */
 
+.page-header__item nav__logo {
+	background-color: lightslategray;
+}
+
 .page-navbar {
 	display: -webkit-box;
 	display: -ms-flexbox;
